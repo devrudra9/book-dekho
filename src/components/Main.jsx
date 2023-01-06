@@ -9,7 +9,7 @@ const Main = () => {
     const searchBook = (event) => {
         const API_KEY = process.env.REACT_APP_API_KEY
         if (event.key === "Enter") {
-            axios.get('https://www.googleapis.com/books/v1/volumes?q=' + search + '&key='+API_KEY+'&maxResults=40').then(res => setData(res.data.items))
+            axios.get('https://www.googleapis.com/books/v1/volumes?q=' + search + '&key=' + API_KEY + '&maxResults=40').then(res => setData(res.data.items))
                 .catch(err => console.log(err));
             const element = document.getElementById("box");
             element.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -18,7 +18,7 @@ const Main = () => {
 
     const handleClick = (event) => {
         event.preventDefault();
-        axios.get('https://www.googleapis.com/books/v1/volumes?q=' + search + '&key=&maxResults=40').then(res => setData(res.data.items))
+        axios.get('https://www.googleapis.com/books/v1/volumes?q=' + search + '&key=' + API_KEY + '&maxResults=40').then(res => setData(res.data.items))
             .catch(err => console.log(err));
         const element = document.getElementById("box");
         element.scrollIntoView({ behavior: "smooth", block: "start" });
