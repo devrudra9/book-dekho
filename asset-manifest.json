@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/book-dekho/static/css/main.7f1286d0.css",
+    "main.js": "/book-dekho/static/js/main.f6759df9.js",
+    "static/js/787.f83094d3.chunk.js": "/book-dekho/static/js/787.f83094d3.chunk.js",
+    "static/media/bg1.jpg": "/book-dekho/static/media/bg1.12a6e6f3946ed8a4a759.jpg",
+    "index.html": "/book-dekho/index.html",
+    "main.7f1286d0.css.map": "/book-dekho/static/css/main.7f1286d0.css.map",
+    "main.f6759df9.js.map": "/book-dekho/static/js/main.f6759df9.js.map",
+    "787.f83094d3.chunk.js.map": "/book-dekho/static/js/787.f83094d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f1286d0.css",
+    "static/js/main.f6759df9.js"
+  ]
+}
